@@ -1,17 +1,17 @@
 {
-	"name": "node-login",
-	"version": "1.3.2",
-	"description": "A template for quickly building login systems on top of Node.js & MongoDb",
+	"name": "SocialDigitalPets",
+	"version": "1.0.0",
+	"description": "Social Vitual Pets",
 	"author": {
-		"name": "Stephen Braitsch",
-		"email": "stephen@braitsch.io"
+		"name": "Daniel Banecki",
+		"email": "danik12@wp.pl"
 	},
 	"website":{
-		"url": "node-login.braitsch.io"
+		"url": "robomaniacs.inf.ug.edu.pl:12345"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/braitsch/node-login.git"
+		"url": "git://github.com/Dejniel/SocialDigitalPet.git"
 	},
 	"private": true,
 	"dependencies": {

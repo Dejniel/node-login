@@ -8,19 +8,39 @@ body
 	margin  0
 	padding  0
 	height  100%
-	background rgb(242,249,254)
-	background -moz-radial-gradient(center, ellipse cover,  rgba(242,249,254,1) 0%, rgba(214,240,253,1) 100%) /* FF3.6+ */
-	background -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(242,249,254,1)), color-stop(100%,rgba(214,240,253,1))) /* Chrome,Safari4+ */
-	background -webkit-radial-gradient(center, ellipse cover,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%) /* Chrome10+,Safari5.1+ */
-	background -o-radial-gradient(center, ellipse cover,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%) /* Opera 12+ */
-	background -ms-radial-gradient(center, ellipse cover,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%) /* IE10+ */
-	background radial-gradient(center, ellipse cover,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%) /* W3C */
+	background rgb(242,234,208)
+	background -moz-radial-gradient(center, ellipse cover,  rgba(242,234,208,1) 0%, rgba(239,224,177,1) 100%) /* FF3.6+ */
+	background -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(242,234,208,1)), color-stop(100%,rgba(239,224,177,1))) /* Chrome,Safari4+ */
+	background -webkit-radial-gradient(center, ellipse cover,  rgba(242,234,208,1) 0%,rgba(239,224,177,1) 100%) /* Chrome10+,Safari5.1+ */
+	background -o-radial-gradient(center, ellipse cover,  rgba(242,234,208,1) 0%,rgba(239,224,177,1) 100%) /* Opera 12+ */
+	background -ms-radial-gradient(center, ellipse cover,  rgba(242,234,208,1) 0%,rgba(239,224,177,1) 100%) /* IE10+ */
+	background radial-gradient(center, ellipse cover,  rgba(242,234,208,1) 0%,rgba(239,224,177,1) 100%) /* W3C */
+//images
+#logo
+	width 100px
+#logo-big
+	background-image url('../img/logo_b.png')
+	background-repeat no-repeat
+	background-size auto 168%
+	background-position 485px -50px
+	display block
+	width 900px
+	height 170px
 	
+#logo-small
+	background-image url('../img/logo_s.png')
+	background-repeat no-repeat
+	background-size auto 100%
+	background-position 0px 0px
+	display block
+	width 53px
+	height 25px
+	margin 5px	
 // login form //
     
 #login-container{
 	width 340px
-	margin 160px auto	
+	margin 0px auto	
 	label{
 		margin 15px 0 5px 5px
 	}
@@ -92,14 +112,6 @@ body
 	width 310px
 	margin -200px 0 0 -150px
 }
-    
-// logged-in page //    
-    
-#btn-logout
-	width 100px
-	top 1px
-	right 8px
-	position absolute
 	 
 // support pages //
 
@@ -126,4 +138,6 @@ label
 	raiseText()
 	margin-top 3px
 button i
-	padding-left 8px	
+	padding-left 8px
+.apitalize-the-first-letter
+	text-transform capitalize
